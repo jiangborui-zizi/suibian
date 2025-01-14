@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: rgb(40, 121, 197);
+    color: white;
+    padding: 20px;
+}
+a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: rgb(219, 47, 47);
+    color: white;
+    border-radius: 5px;
+}
+a:hover {
+    background-color: rgb(219, 47, 47);
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.image-box {
+    width: calc(25% - 10px); /* 每行4个图，占25%的宽度 */
+    margin-bottom: 10px;
+}
+.image-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
